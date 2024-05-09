@@ -18,7 +18,7 @@ public class SimpleTestController {
 
     // GET http://localhost:8080/api/simpleText/fail
     @GetMapping("fail")    ///@RequestMapping("/api/simpleText") 없으면 api/simpleText/fail 이렇게 써야 함
-    public ResponseEntity simpleTextFail(){
+    public ResponseEntity<String> simpleTextFail(){
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("실패");
     }
 }
