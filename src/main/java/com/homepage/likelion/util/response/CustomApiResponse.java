@@ -5,7 +5,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
+//롬복을 통해 생성자, gettersetter 간편하게 생성
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class CustomApiResponse<T> {
 
     //status, data, message
