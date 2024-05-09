@@ -26,6 +26,7 @@ public class CustomTestController {
          // userId : example
          // email : example@naver.com
 
+         // 응답을 보내기 위한 dto
          // dto 클래스 만들기 방법 1. new  사용
          SimpleDto dto = new SimpleDto("example", "example@naver.com");
 
