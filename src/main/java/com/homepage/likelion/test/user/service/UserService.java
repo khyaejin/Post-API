@@ -1,12 +1,10 @@
 package com.homepage.likelion.test.user.service;
 
-import com.homepage.likelion.test.domain.User;
-import com.homepage.likelion.test.tmp.dto.SignupDto;
+import com.homepage.likelion.test.tmp.domain.User;
 import com.homepage.likelion.test.user.dto.UserSignupDto;
 import com.homepage.likelion.test.user.repository.UserRepository;
 import com.homepage.likelion.util.response.CustomApiResponse;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

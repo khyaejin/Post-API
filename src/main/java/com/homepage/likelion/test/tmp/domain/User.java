@@ -1,4 +1,4 @@
-package com.homepage.likelion.test.domain;
+package com.homepage.likelion.test.tmp.domain;
 
 import com.homepage.likelion.util.entity.BaseEntity;
 import jakarta.persistence.*;
@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "USERS")
 @Getter
 //Entity에는 @Setter 사용 x -> 이유 추후 설명
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -27,5 +28,4 @@ public class User extends BaseEntity {
 
     @Column(name = "password")
     private String password;
-
 }
